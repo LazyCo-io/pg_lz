@@ -1,5 +1,7 @@
-# pg_lz_upgrade
-PostgreSQL Lazy Upgrade
+# pg_lz
+PostgreSQL Lazy App
+
+This app intends to help DBAs with daily tasks like backups, minor and major version upgrades with minimum downtime among others.
 
 ## TODO
 
@@ -9,7 +11,7 @@ PostgreSQL Lazy Upgrade
 ## plano implementação
 
 <!-- - [ ] Garantir WAL archive antes de iniciar o backup -->
-- [ ] Criar backup label no banco (pg_backup_start)
+- [x] Criar backup label no banco (pg_backup_start)
 - [ ] Copiar os arquivos incrementalmente
 	- [ ] Utilizar um rsync ou outra lib similar
 	- [ ] Copiar blocos em paralelo 
