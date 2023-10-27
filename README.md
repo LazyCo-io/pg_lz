@@ -9,7 +9,7 @@ PostgreSQL Lazy Upgrade
 ## plano implementação
 
 <!-- - [ ] Garantir WAL archive antes de iniciar o backup -->
-- [ ] Criar backup label no banco (pg_backup_start)
+- [x] Criar backup label no banco (pg_backup_start)
 - [ ] Copiar os arquivos incrementalmente
 	- [ ] Utilizar um rsync ou outra lib similar
 	- [ ] Copiar blocos em paralelo 
