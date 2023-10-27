@@ -1,5 +1,7 @@
-# pg_lz_upgrade
-PostgreSQL Lazy Upgrade
+# pg_lz
+PostgreSQL Lazy App
+
+This app intends to help DBAs with daily tasks like backups, minor and major version upgrades with minimum downtime among others.
 
 ## TODO
 
